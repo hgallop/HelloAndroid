@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--french -->
     <string name="app_name">" Bonjour Android"</string>
     <string name="info">" Udacity est une organisation éducative à but lucratif fondée par Sebastian Thrun, David Stavens et Mike Sokolsky offrant des cours en ligne massifs"</string>
     <string name="addressl">2465, rue Latham * Mountain View, CA 94043 * 650-555-5555</string>
