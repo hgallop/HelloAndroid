@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Bonjour Android"</string>
+    <string name="info">" Udacity est une organisation éducative à but lucratif fondée par Sebastian Thrun, David Stavens et Mike Sokolsky offrant des cours en ligne massifs"</string>
+    <string name="addressl">2465, rue Latham * Mountain View, CA 94043 * 650-555-5555</string>
+    <string name="addressp">2465, rue Latham \nMountain View, CA 94043 \n650-555-5555</string>
+    <string name="access1">Logo d\'Udacity coloré</string>
+    <string name="access2">Icône Udacity</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info">Udacity es una organización educativa con fines de lucro fundada por Sebastian Thrun, David Stavens y Mike Sokolsky que ofrece cursos masivos abiertos en línea.</string>
+    <string name="addressl">2465 Latham St * Mountain View, CA 94043 * 650-555-5555</string>
+    <string name="addressp">2465 Latham St \nMountain View, CA 94043 \n650-555-5555</string>
+    <string name="access1">" Logotipo colorido de Udacity"</string>
+    <string name="access2">" Icono de Udacity"</string>
+    <string name="app_name">Hola Android</string>
+</resources>
