@@ -4,4 +4,5 @@
     <dimen name="none">0dp</dimen>
     <dimen name="large">64sp</dimen>
     <dimen name="pad">16dp</dimen>
+    <dimen name="text">16sp</dimen>
 </resources>

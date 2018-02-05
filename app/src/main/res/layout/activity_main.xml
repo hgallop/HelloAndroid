@@ -30,7 +30,8 @@
         android:layout_weight="1"
         android:autoLink="all"
         android:text="@string/addressp"
-        android:textColor="@color/colorAccent" />
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -38,7 +39,8 @@
         android:layout_gravity="center"
         android:layout_weight="0.5"
         android:autoLink="web"
-        android:text="@string/url" />
+        android:text="@string/url"
+        android:textSize="@dimen/text"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -46,8 +48,8 @@
         android:layout_weight="1"
         android:paddingLeft="@dimen/pad"
         android:paddingRight="@dimen/pad"
-        android:text="@string/info" />
-
+        android:text="@string/info"
+        android:textSize="@dimen/text"/>
     <ImageView
         android:layout_width="@dimen/icon"
         android:layout_height="@dimen/icon"
