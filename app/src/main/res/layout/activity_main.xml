@@ -19,6 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margin2"
         android:fontFamily="@font/volkhovregular"
         android:text="@string/udacity"
         android:textSize="@dimen/large" />
@@ -26,30 +27,54 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="@dimen/none"
-        android:layout_gravity="center"
-        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_weight="0.5"
         android:autoLink="all"
+        android:drawableLeft="@drawable/ic_loc"
+        android:drawableStart="@drawable/ic_loc"
+        android:gravity="start"
         android:text="@string/addressp"
         android:textColor="@color/colorAccent"
-        android:textSize="@dimen/text"/>
+        android:textSize="@dimen/text" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="@dimen/none"
-        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_weight="0.5"
+        android:autoLink="phone"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawableStart="@drawable/ic_phone"
+        android:gravity="center"
+        android:text="@string/phone"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/none"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
         android:layout_weight="0.5"
         android:autoLink="web"
+        android:drawableLeft="@drawable/ic_lang"
+        android:drawableStart="@drawable/ic_lang"
+        android:gravity="center"
         android:text="@string/url"
-        android:textSize="@dimen/text"/>
+        android:textSize="@dimen/text" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="@dimen/none"
+        android:layout_marginTop="@dimen/margin2"
         android:layout_weight="1"
         android:paddingLeft="@dimen/pad"
         android:paddingRight="@dimen/pad"
         android:text="@string/info"
-        android:textSize="@dimen/text"/>
+        android:textSize="@dimen/text" />
+
     <ImageView
         android:layout_width="@dimen/icon"
         android:layout_height="@dimen/icon"

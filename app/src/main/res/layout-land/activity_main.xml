@@ -28,10 +28,26 @@
         android:layout_height="@dimen/none"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:autoLink="all"
+        android:autoLink="map"
+        android:drawableLeft="@drawable/ic_loc"
+        android:drawableStart="@drawable/ic_loc"
+        android:gravity="center"
         android:text="@string/addressl"
         android:textColor="@color/colorAccent"
-        android:textSize="@dimen/text"/>
+        android:textSize="@dimen/text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/none"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:autoLink="phone"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawableStart="@drawable/ic_phone"
+        android:gravity="center"
+        android:text="@string/phone"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,8 +55,11 @@
         android:layout_gravity="center"
         android:layout_weight="1"
         android:autoLink="web"
+        android:drawableLeft="@drawable/ic_lang"
+        android:drawableStart="@drawable/ic_lang"
+        android:gravity="center"
         android:text="@string/url"
-        android:textSize="@dimen/text"/>
+        android:textSize="@dimen/text" />
 
     <ImageView
         android:layout_width="@dimen/icon"
