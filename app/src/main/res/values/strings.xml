@@ -8,5 +8,5 @@
     <string name="url" translatable="false"><a href="http://www.udacity.com">www.udacity.com</a></string>
     <string name="info">Udacity is a for-profit educational organization founded by Sebastian Thrun, David Stavens,
         and Mike Sokolsky offering massive open online courses</string>
-    <string name="phone">(650)555-5555</string>
+    <string name="phone">(650)555–5555</string>
 </resources>
