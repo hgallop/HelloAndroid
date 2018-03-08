@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -8,4 +8,40 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MainImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/none</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:src">@drawable/udacityhead</item>
+    </style>
+
+    <style name="HeadStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/udacity</item>
+        <item name="android:textSize">@dimen/large</item>
+        <item name="android:fontFamily" tools:targetApi="16">@font/volkhovregular</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/none</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="TextStyle.Landscape">
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="IconImage">
+        <item name="android:layout_width">@dimen/icon</item>
+        <item name="android:layout_height">@dimen/icon</item>
+        <item name="android:paddingBottom">@dimen/pad</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/udacitylogo</item>
+    </style>
 </resources>

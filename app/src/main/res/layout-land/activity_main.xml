@@ -9,64 +9,35 @@
 
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/none"
-        android:layout_weight="3"
-        android:contentDescription="@string/access1"
-        android:src="@drawable/udacityhead" />
+        style="@style/MainImage"
+        android:contentDescription="@string/access1" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:fontFamily="@font/volkhovregular"
-        android:text="@string/udacity"
-        android:textSize="@dimen/large" />
+        style="@style/HeadStyle" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/none"
-        android:layout_gravity="center"
-        android:layout_weight="1"
+        style="@style/TextStyle.Landscape"
         android:autoLink="map"
         android:drawableLeft="@drawable/ic_loc"
         android:drawableStart="@drawable/ic_loc"
-        android:gravity="center"
-        android:text="@string/addressl"
-        android:textColor="@color/colorAccent"
-        android:textSize="@dimen/text" />
+        android:text="@string/addressl" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/none"
-        android:layout_gravity="center"
-        android:layout_weight="1"
+        style="@style/TextStyle.Landscape"
         android:autoLink="phone"
         android:drawableLeft="@drawable/ic_phone"
         android:drawableStart="@drawable/ic_phone"
-        android:gravity="center"
-        android:text="@string/phone"
-        android:textColor="@color/colorAccent"
-        android:textSize="@dimen/text" />
+        android:text="@string/phone" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/none"
-        android:layout_gravity="center"
-        android:layout_weight="1"
+        style="@style/TextStyle.Landscape"
         android:autoLink="web"
         android:drawableLeft="@drawable/ic_lang"
         android:drawableStart="@drawable/ic_lang"
-        android:gravity="center"
-        android:text="@string/url"
-        android:textSize="@dimen/text" />
+        android:text="@string/url" />
 
     <ImageView
-        android:layout_width="@dimen/icon"
-        android:layout_height="@dimen/icon"
-        android:layout_gravity="center"
-        android:contentDescription="@string/access2"
-        android:paddingBottom="@dimen/pad"
-        android:src="@drawable/udacitylogo" />
+        style="@style/IconImage"
+        android:contentDescription="@string/access2" />
 
 </LinearLayout>
